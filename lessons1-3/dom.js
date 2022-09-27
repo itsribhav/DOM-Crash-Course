@@ -10,19 +10,19 @@
 // console.log(document.head);
 // console.log(document.body);
 // console.log(document.all);
-// console.log(document.all[10]);
+// console.log(document.all[10]);       //not a good idea bcoz the element index can change
 // // document.all[10].textContent = 'Hello';
 // console.log(document.forms[0]);
 // console.log(document.links);
 // console.log(document.images);
 
-// GETELEMENTBYID //
+// GETELEMENTBYID //(4 main prop)
 // console.log(document.getElementById('header-title'));
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
 // console.log(headerTitle);
-// headerTitle.textContent = 'Hello';
-// headerTitle.innerText = 'Goodbye';
+// headerTitle.textContent = 'Hello';//does not pay attention to the styling
+// headerTitle.innerText = 'Goodbye';//Pays attention to the style property
 // console.log(headerTitle.innerText);
 // headerTitle.innerHTML = '<h3>Hello</h3>';
 // header.style.borderBottom = 'solid 3px #000';
@@ -50,7 +50,7 @@
 // li[1].style.fontWeight = 'bold';
 // li[1].style.backgroundColor = 'yellow';
 
-// // Gives error
+// // Gives error bcoz items is an array
 // //items.style.backgroundColor = '#f4f4f4';
 
 // for(var i = 0; i < li.length; i++){
