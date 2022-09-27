@@ -1,4 +1,5 @@
-// EXAMINE THE DOCUMENT OBJECT //
+// EXAMINE THE DOCUMENT OBJECT ----tree model of dom //
+
 
 // console.dir(document);
 // console.log(document.domain);
